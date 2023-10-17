@@ -159,6 +159,9 @@
         </div>
         <div class="container-xlg text-center" style="margin-top: 6em;">
             <div class="row m-3 container-xlg justify-content-center align-items-center">
+                <div class="col-1">
+                    <button onclick="desplasar1()" class="btn"> <img src="Media/flechaIzq.png" alt="" class="col-8"></button>
+                </div>
                 <div class="col-4">
                     <div>
                         <span class="sub" style="font-size: 60px;">VINI DELLA CASA</span>
@@ -166,11 +169,14 @@
                         <img src="Media/Underline.webp" class="col-6" style="margin-top: -40px;">
                     </div>
                     <div>
-                        <span style="font-size: 30px; font-family: 'Roboto';">MONTEPULCIANO</span>
+                        <span id="vino_nom" style="font-size: 30px; font-family: 'Roboto';">MONTEPULCIANO</span>
                     </div>
                 </div>
                 <div class="col-3">
-                    <img src="Media/Vini.webp" alt="">
+                    <img id="vino_img" src="Media/Montepulciano.webp" alt="" class="col-10">
+                </div>
+                <div class="col-1">
+                    <button onclick="desplasar2()" class="btn"> <img src="Media/flechaDer.png" alt="" class="col-8"></button>
                 </div>
             </div>
         </div>
@@ -327,5 +333,6 @@
             </span>
         </div>
     </footer>
+    <script src="js/vinos.js"> </script>
 </body>
 </html>
